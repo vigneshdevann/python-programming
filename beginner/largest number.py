@@ -1,9 +1,9 @@
-a=int(raw_input())
-b=int(raw_input())
-c=int(raw_input())
-if(a>=b and a>=c):
-	print(a)
-elif(b>=c):
-	print(b)
+app=int(raw_input())
+bed=int(raw_input())
+cat=int(raw_input())
+if(app>=bed and app>=cat):
+	print(app)
+elif(bed>=cat):
+	print(bed)
 else:
-	print(c)
+	print(cat)
